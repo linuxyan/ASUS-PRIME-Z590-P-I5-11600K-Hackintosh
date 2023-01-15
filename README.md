@@ -10,16 +10,21 @@
   Advanced Mode (F7)
 
   ```sh
+  Advanced
+    - System Agent(SA) Configuration
+      - VT-d: Enabled
+    - Onboard Devices Configuration
+      - Serial Port Configuration
+        - Serial Port: Disabled
   Boot
     - CSM (Compatibility Support Module)
       - Launch CSM: Disabled
     - Secure Boot
-      - OS Type: Windows UEFI mode
+      - OS Type: Other OS
       - Key Management
         - Clear Secure Boot Keys: Execute
     - Boot Configuration
       - Fast Boot: Disabled
-      - POST Delay Time: 0 sec
       - Wait For 'F1' If Error: Disabled
   ```
 
